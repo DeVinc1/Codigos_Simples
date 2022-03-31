@@ -1,5 +1,5 @@
 function realizarTeste(num){
-
+   
    let numeroTestado = num
    let divisor = numeroTestado - 1
    let resultado = ""
