@@ -22,7 +22,7 @@ function realizarTeste(num){
             divisor = "0 e ele mesmo (" + numeroTestado + ")"  
          }
          
-         console.log(resultado + " pois é divisivivel por " + numeroTestado)
+         console.log(resultado + " pois é divisivivel por " + divisor)
 
          
       }
