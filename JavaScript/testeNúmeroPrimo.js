@@ -3,6 +3,7 @@ function realizarTeste(num){
    let numeroTestado = num
    let divisor = numeroTestado - 1
    let resultado = ""
+ 
 
       if(numeroTestado < 0){
          resultado += "Insira um valor válido"
@@ -14,13 +15,16 @@ function realizarTeste(num){
          }
          
          if (divisor > 1 || numeroTestado == 0){
-            resultado += "O número " + numeroTestado + " não é primo"
+            resultado += "O número " + numeroTestado + " não é primo"   
          }
          else{
             resultado += "O número " + numeroTestado + " é primo"
+            divisor = "0 e ele mesmo (" + numeroTestado + ")"  
          }
+         
+         console.log(resultado + " pois é divisivivel por " + numeroTestado)
 
-         console.log(resultado);
+         
       }
    }
 
