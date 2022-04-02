@@ -19,7 +19,7 @@ function realizarTeste(num){
          }
          else{
             resultado += "O número " + numeroTestado + " é primo"
-            divisor = "0 e ele mesmo (" + numeroTestado + ")"  
+            divisor = "somente por 0 e ele mesmo (" + numeroTestado + ")"  
          }
          
          console.log(resultado + " pois é divisivivel por " + divisor)
